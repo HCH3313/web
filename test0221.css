@@ -1,0 +1,19 @@
+p::first-line{
+    background-color: yellow;
+}
+
+p::first-letter{
+    font-size: 200%;
+}
+
+ul::before{
+    content: "準備材料";
+    color: white;
+    background-color: black;
+    margin-left: -2em;
+}
+ul::after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid black;
+}

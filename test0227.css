@@ -1,0 +1,30 @@
+td{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+h2[class="brand"]{
+    color: brown;
+}
+img[alt~="LOGO"]{
+    width: 80px;
+    height: 80px;
+}
+a[href^="https"]{
+    color: red;
+    text-decoration: none;
+}
+img[src$=".png"]{
+    border: 1px solid black;
+    border-radius:50%;
+}
+a[href*="wda"]{
+    background-color: yellow;
+}
+body p{
+    color: rgb(110, 104, 96);
+}
+h1~p {
+    color: red;
+}

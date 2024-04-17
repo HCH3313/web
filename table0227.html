@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>農產銷售 Web</title>
+</head>
+
+<body>
+
+    <h1>農產銷售Web</h1>
+    <nav>
+        介紹一下營養可口的水果！<br>
+    </nav>
+    <main>
+        <form>
+            <table border="1" width="70%" cellpadding="0" cellspacing="0">
+                <p>*為必填項目</p>
+                <caption>
+                    <h3>產品選擇</h3>
+                </caption>
+                <tr>
+                    <th>種類*</th>
+                    <td>
+                        <input type="radio" name="favo" value="水梨">水梨
+                        <input type="radio" name="favo" value="蘋果">蘋果
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>等級*</th>
+                    <td>
+                        <select name="type" required>
+                            <option value="">請選擇</option>
+                            <option value="0">40A(單顆約36~40兩)</option>
+                            <option value="1">36A(單顆約32~36兩)</option>
+                            <option value="2">32A(單顆約29~32兩)</option>
+                            <option value="3">29A(單顆約26~29兩)</option>
+                            <option value="4">26A(單顆約23~26兩)</option>
+                            <option value="5">23A(單顆約20~23兩)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>數量*</th>
+                    <td><input type="number" name="number" required></td>
+                </tr>
+                <tr>
+                    <th>外觀*</th>
+                    <td>
+                        <input type="radio" name="favo" value="精緻手提禮盒">精緻手提禮盒
+                        <input type="radio" name="favo" value="精緻單層禮盒">精緻單層禮盒
+                        <input type="radio" name="favo" value="小小滿足-雙層箱">小小滿足-雙層箱
+                        <input type="radio" name="favo" value="大吃特吃-四層箱">大吃特吃-四層箱
+                    </td>
+                </tr>
+                <tr>
+                    <th>包裝*</th>
+                    <td>
+                        <select name="type" required>
+                            <option value="">請選擇</option>
+                            <option value="0">2粒裝(手提禮盒)</option>
+                            <option value="1">3粒裝(手提禮盒)</option>
+                            <option value="2">6粒裝</option>
+                            <option value="3">7粒裝</option>
+                            <option value="4">8粒裝</option>
+                            <option value="5">9粒裝</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table border="1" width="70%" cellpadding="0" cellspacing="0">
+                <caption>
+                    <h3>購買人資料</h3>
+                </caption>
+                <tr>
+                    <th>購買人*</th>
+                    <td><input type="text" name="name2" required placeholder="收件人名稱"></td>
+                </tr>
+                <tr>
+                    <th>連絡電話*</th>
+                    <td><input type="tel" name="tel" required placeholder="0912-345678"></td>
+                </tr>
+                <tr>
+                    <th>E-Mail*</th>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <th>備註</th>
+                    <td><input type="text" name="message" placeholder="EX.警衛室代收"></td>
+                </tr>
+            </table>
+            <div>
+                <div class="btns">
+                    <input type="reset" value="清除重填">
+                    <input type="submit" value="送出">
+                    <a href="./web0206/0206.html"><input type="button" value="回上頁"></a>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright © 農產品 Web All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

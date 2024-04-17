@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gavin's Web table</title>
+    <link rel="stylesheet" href="./style - 20240227.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Protest+Revolution&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <h1>Gavin's<br>Web</h1>
+
+        <p>介紹一下我家的貓主子們！</p>
+    </header>
+    
+    <main>
+        <form>
+            <p>*為必填項目。</p>
+            <table border="1">
+                <caption>貓主子資料</caption>
+                <tr>
+                    <th>主子名*</th>
+                    <td><input type="text" name="cat-name" required></td>
+                </tr>
+                <tr>
+                    <th>年齡*</th>
+                    <td>
+                        <select name="age">
+                            <option value="">請選擇</option>
+                            <option value="0">未滿1歲</option>
+                            <option value="1">1~5歲</option>
+                            <option value="2">6~10歲</option>
+                            <option value="3">11~15歲</option>
+                            <option value="4">16~20歲</option>
+                            <option value="5">20歲以上</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>性別*</th>
+                    <td>
+                        <input type="radio" name="sex" value="公">公
+                        <input type="radio" name="sex" value="母" checked>母
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>最愛的食物</th>
+                    <td>
+                        <input type="checkbox" name="favo" value="魚">魚
+                        <input type="checkbox" name="favo" value="肉">肉
+                        <input type="checkbox" name="favo" value="乾飼料">乾飼料
+                    </td>
+                </tr>
+                <tr>
+                    <th>照片*</th>
+                    <td><input type="file"></td>
+                </tr>
+            </table>
+            
+            <table border="1">
+                <caption>貓奴資料</caption>
+                <tr>
+                    <th>奴才名*</th>
+                    <td><input type="text" name="name" required placeholder="咖啡">※可用暱稱</td>
+                </tr>
+                <tr>
+                    <th>E-Mail*</th>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <th>留言</th>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <input type="reset" value="清除重填">
+                <input type="submit" value="送出">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>Copyright © Gavin's Web All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

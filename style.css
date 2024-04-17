@@ -1,0 +1,263 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+.box1{
+    color: white;
+    background-color: rgb(194, 145, 145);
+    width: 700px;
+    height: 50%;
+    text-align: left;
+}
+.box2{
+    color: white;
+    background-color: rgb(194, 145, 145);
+    width: 20vw;
+    height: 50%;
+    text-align: left;
+}
+
+
+/*視窗背景色設定*/
+body{
+    background-color: #fbf9cc;
+    background-image: url(./web0206/images/bg.png);
+    
+    background-repeat: repeat-x;
+    background-position: 5px -20px;
+    font-family: "Klee One", cursive;
+    font-weight: 500;
+  
+}
+
+/*連結顏色設定*/
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: peru;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: brown;
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+header, nav, footer{
+    text-align: center;
+}
+
+/*導覽樣式設定*/
+.menu li{
+    list-style-type: none;
+    /* border: 1px solid red ; */
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+.menu li a{
+    color: aliceblue;
+    background-color: #4a9d70;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/*頁面標題設定*/
+@font-face {
+    font-family:SawarabiGothic ;
+    src: url(./SawarabiGothic-Regular.ttf);
+}
+h1{
+    color: white;
+    background-color: #54a582;
+    width: 200px;
+    border: 5px solid #95dbbd;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 40px auto;
+    border-radius: 50%;
+    font-size: 
+    2em;
+    line-height: 1em;
+    text-align: center;
+    background: linear-gradient(to bottom,#6fbb9a,#4a9d70);
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    /* font-family: "Protest Revolution",sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+    /* font-family:SawarabiGothic ; */
+}
+
+/*次標題設定*/
+h2{
+    color: #6ac1b3;
+    border: 1px dotted #6ac1b3;
+    border-left: 10px solid #d0e35b;
+    padding: 15px;
+    border-radius: 10px 0 0 10px;
+}
+
+/*小標題設定*/
+h3{
+    color: #ff705b;
+    background-color: #fbf9cc;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 3px #f2d4ad inset;
+}
+h3 span{
+    font-weight: normal;
+}
+
+/*內容區塊邊框設定*/
+main{
+    background-color: white;
+    width: 960px;
+    margin: 30px auto;
+    border: 1px solid #f4c09f;
+    padding: 40px 80px;
+    box-sizing: border-box;
+    /* text-align-last: left; */
+    text-align: left;
+}
+
+/*「更多介紹」連結設定*/
+.more{
+    text-align: right;
+    
+}
+
+.more::after{
+    content: url(./web0206/images/ico_arrow.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+/*連結圖示設定*/
+a[href*="catfarmer"]::after{
+    content: url(./web0206/images/ico_mail.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+a[href*="tcnr"]::after{
+    content: url(./web0206/images/ico_blank.png) ;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+/*區塊間分隔*/
+main > section + section{
+    margin-top: 80px;
+}
+
+/*文繞圖設定*/
+.imgL{
+    float: left;
+    margin-right: 20px;
+}
+.imgR{
+    float: right;
+    margin-left: 20px;
+}
+.clear{
+    clear: both;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*圓形圖片設定*/
+.imgRa{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+/*表格設定*/
+table{
+    width: 100%;
+    margin-bottom: 30px;
+    border: 2px solid #f8c9b2;
+    border-collapse: collapse;
+}
+
+table th, table td{
+    border: 1px solid #6ac1b3 ;
+    padding: 10px 20px;
+}
+table th{
+    background-color: #ffeeee;
+    text-align: left;
+    width: 10em;
+}
+table caption{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table input[type="text"],
+table input[type="email"],
+table input[type="selected"],
+table input[type="tel"],
+table textarea{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid gray;
+    box-sizing: 1em;
+}
+
+table input[type="text"]:focus,
+table input[type="email"]:focus,
+table input[type="tel"]:focus,
+table textarea:focus{
+    background-color: #fbf9cc;
+    border: 3px solid #e4e266;
+    outline: none ;
+}
+
+table input,
+table textarea,
+table select{
+    cursor: pointer;
+}
+
+table select[name="type"]{
+   width: 200px;
+   padding: 5px;
+}
+
+table input[type="number"]{
+    width: 150px;
+    padding: 5px;
+}
+
+.btns{
+    text-align: center;
+    /* background-color: #4a9d70; */
+}
+
+.btns input{
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #f4c09f;
+    border-radius: 10px;
+    font-size: 1em;
+    margin: 0px 10px;
+    text-align: center;
+    font-family: "Klee One", cursive;
+    font-weight: 500;
+    position: relative;
+}
+
+.btns input:hover{
+    background-color: #fadccc;
+}

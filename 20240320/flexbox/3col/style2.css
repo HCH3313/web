@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+  margin:0;
+  padding:0;
+}
+ul {
+  list-style: none;
+}
+#wrap{
+  width:800px;
+  margin:30px auto;
+  background-color: beige;
+}
+
+#header{
+  background-color: lightpink;
+}
+
+#content{
+  display: flex;
+  justify-content: space-between;
+}
+
+#maincontent{
+  background-color: #ffa500;
+  display: flex;
+  width: 580px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+#side{
+  background-color: skyblue;
+  width:200px;
+}
+
+#main{
+  background-color: palegreen;
+  width:360px;
+  display: block; /*for IE11*/
+}
+
+#navi{
+  background-color: plum;
+  width:200px;
+}
+
+#footer{
+  background-color: gold;
+}

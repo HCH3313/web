@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./test0227.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <h2 class="brand">HTML5</h2>
+                <img src="./image/HTML5.png" alt="HTML5 LOGO">
+                <p><a href="#">認識HTML5</a></p>
+            </td>
+            <td>
+                <h2 class="brand">CSS3</h2>
+                <img src="./image/CSS3.png" alt="CSS3 LOGO">
+                <p><a href="#">認識CSS3</a></p>
+            </td>
+            <td>
+                <h2>CSS3</h2>
+                <img src="./image/logo.png" alt="Tcnr LOGO">
+                <p><a href="https://tcnr.wda.gov.tw/">電子信箱</a></p>
+            </td>
+        </tr>
+    </table>
+    <p>test</p>
+    <div>
+        <p>test</p>
+    </div>
+    <h1>標題</h1>
+    <h2>123</h2>
+    <p>文字</p>
+    <p>文字</p>
+    <p>文字</p>
+    <p>文字</p>
+    <p>文字</p>
+    <table border="1" width="80%" cellpadding="10" cellspacing="10">
+        <tr>
+            <th>表頭A</th>
+            <th>表頭B</th>
+        </tr>
+        <tr>
+            <td colspan="3">A1</td>
+            <!-- <td>B1</td>
+            <td>C1</td> -->
+        </tr>
+        <tr>
+            <td rowspan="2">A2</td>
+            <td>B2</td>
+        </tr>
+        <tr>
+            <td>B3</td>
+        </tr>
+
+    </table>
+    <form action="index - 20240217.html" method="post">
+       <fieldset>
+            <p>帳號: <input type="text" name="username"></p>
+            <p>密碼: <input type="password" name="password"></p>
+            
+            <p>
+                <label for="male">
+                    <input type="radio" name="gender" value="male" id="male">男
+                </label>
+                <label><input type="radio" name="gender" value="female" id="female">女</label>
+                
+            </p>
+            <p>
+                <label><input type="checkbox" name="interest" value="jog" id="jog">慢跑</label>
+                <label><input type="checkbox" name="interest" value="swim" id="swim">游泳</label>
+                <label><input type="checkbox" name="interest" value="Balls" id="Balls">球類</label>
+                <label><input type="checkbox" name="interest" value="others" id="others">其他</label>
+            </p>
+            <p>
+                <select name="season" id="" size="4" multiple>
+                    <option value="spring">春</option>
+                    <option value="summer">夏</option>
+                    <option value="autumn">秋</option>
+                    <option value="winter">冬</option>
+                </select>
+            </p>
+            <p>
+                <textarea name="content" id="" cols="100" rows="5">
+                    溫馨提醒!每日消費滿100可得1點
+                    集滿10點可得精美禮品一份!
+                </textarea>
+            </p>
+            
+       </fieldset>
+       <form action="./index3.html" method="post">
+        <p>搜尋:<input type="search" name="search"></p>
+        <p>信箱1:<input type="email" name="email1"></p>
+        <p>信箱2:<input type="text" name="email2"></p>
+        <p>數字:<input type="unmber" max="30" min="2" step="5"></p>
+        <p>日期:<input type="date" name="date"></p>
+        <p>時間:<input type="time" name="time"></p>
+        <p>程度:<input type="range" name="range"></p>
+        <p>顏色:<input type="color" name="color"></p>
+       </form>
+        <p>
+            <input type="submit" value="登入">
+            <input type="reset" name="reset">
+        </p>
+    </form>
+</body>
+</html>

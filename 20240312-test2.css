@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: beige;
+    font-family: 微軟正黑體;
+}
+#wrapper{
+    width: 1024px;
+    margin: 0 auto;
+}
+/* #logo{
+    height: 250px;
+} */
+#logo img{
+    width: 100%;
+}
+
+nav{
+    background-color: #B63D32;
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+}
+
+li{
+    float: left;
+    text-align: center;
+}
+
+li a{
+    display: block;
+    padding: 25px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #FFC90E;
+}
+
+#content_in{
+    background-color: rgb(236, 226, 211);
+    text-align: center;
+    padding: 30px 60px;
+}
+#content_in h1{
+    color: #314a12;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+#content_in p{
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+#content_in a{
+    display: block;
+    width: 130px;
+    height: 40px;
+    background-color: #B63D32;
+    color: white;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #71552A;
+    text-align: center;
+}
+
+footer p{
+    font-size: 0.5em;
+    color: white;
+    padding: 10px 0;
+}
+
+@media (max-width:1024px){
+    #wrapper{
+        width: 80%;
+    }
+    
+}
+@media (max-width:640px){
+    li a{
+        padding: 5px;
+    }
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 1em;
+    font-family: 標楷體;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid green;
+}
+
+.container{
+    max-width: 800px;
+}
+.order{
+    width: 100%;
+}
+
+.order th,
+.order td{
+    border: 1px solid green;
+    padding: 5px;
+    text-align: center;
+}
+.order th{
+    background-color: green;
+    color: white;
+}
+h1{
+    line-height: 1em;
+}
+@media (max-width:560px) {
+    /* .m-none{
+        display: none;
+    } */
+    .container{
+        overflow-x: auto;
+    }
+    .order{
+        width: 768px;
+    }
+}

@@ -1,0 +1,16 @@
+h1{
+    color: blue;
+    /* background-color: yellowgreen; */
+}
+p.note {
+    color: red;
+}
+p#hot{
+    color:yellow;
+}
+p{
+    color: rgb(0%, 100%, 0%)
+    !important;
+    background-color: grey;
+}
+ 

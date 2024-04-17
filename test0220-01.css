@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+}
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap);
+@font-face {
+    font-family: NotoSansTC ;
+    src: url(./NotoSansTC-VariableFont_wght.ttf);
+}
+body{
+    font-size: 40px;
+}
+
+/* .iv{
+    text-align: center;
+    padding: 20px;margin-bottom: 10px;
+    color: white;
+}
+.linear1{
+    background: linear-gradient(to right,yellow,green);
+}
+.linear2{
+    background: linear-gradient(45deg,yellow,green);
+}
+.linear3{
+    background: linear-gradient(to bottom left,yellow,green);
+}
+.linear4{
+    background: linear-gradient(to right,yellow 10%,green 90%);
+}
+.linear5{
+    background: linear-gradient(to right,yellow,green,red,blue,orange,indigo);
+}
+.radial1{
+    width: 500px;
+    height: 300px;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    background: radial-gradient(red,yellow,green);
+    border-radius: 50%;
+}
+.radial2{
+    width: 500px;
+    height: 300px;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    background: radial-gradient(red,yellow,green);
+    border-radius: 30%;
+    text-shadow: -10px 0 black;
+}
+.radial3{
+    width: 500px;
+    height: 300px;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    background: radial-gradient(closest-side at 60% 30%,red,yellow,green);
+    border-radius: 30%;
+}
+.radial4{
+    width: 500px;
+    height: 300px;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    background: radial-gradient(farthest-side at 60% 30%,red,yellow,green);
+    border-radius: 30%;
+}
+.radial5{
+    width: 500px;
+    height: 300px;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    background: radial-gradient(closest-corner at 60% 30%,red,yellow,green);
+    border-radius: 30%;
+}
+.radial6{
+    width: 500px;
+    height: 300px;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    background: radial-gradient(farthest-corner at 60% 30%,red,yellow,green);
+    border-radius: 30%;
+} */
+h1{
+    font-size: 3em;
+    text-align: center;
+    line-height: 1em;
+}
+.textshadow1{
+    color: white;
+    background-color: black;
+    text-shadow: 0 0 50px #ff6600;
+    font-family: 標楷體, 新細明體, 微軟正黑體;
+}
+.textshadow2{
+    color: #717171;
+    background-color: #d3d3d3;
+    text-shadow: 0 1px 1px white;
+}
+.textshadow3{
+    color: #CC9C9C;
+    background-color: red;
+    text-shadow: -1px -1px  rgb(158, 76, 76),
+                  1px  1px  #717171;
+}
+.textshadow4{
+    color: white;
+    background-color: #3699f6;
+    text-shadow: 1px 1px #ff6600,
+                 2px 2px #C9C9C9,
+                 2px 3px #BABDAD,
+                 2px 4px #A9B91A,
+                 2px 5px #12CCDD;
+}
+div{
+    width: 300px;
+    height: 100px;
+    background-color: #3cf26A;
+    color: rgb(139, 67, 67);
+    text-align: center;
+    margin: 30px auto;
+    line-height: 100px;
+    box-shadow:0 0 10px red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.p1{
+  font-family: NotoSansTC,sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+}
